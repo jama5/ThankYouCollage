@@ -10,18 +10,16 @@ void setup(){
  
 noStroke();
 
-
-
-
 background (255,255,255);
  size (1000,1000);
+ img= loadImage ("thank-you-394180_960_720.jpg")
 }
+
+
 void draw (){  
-   if (mouseY>900)   
-   {img= loadImage ("thank-you-394180_960_720.jpg");
+   if (mouseY>900)   {
    image (img,25,140);  }
-   else {background (0,255,0);
-   
+   else {
 background (255,255,255);
 noStroke();
 random (255);
@@ -149,3 +147,7 @@ vertex (600,1000);
 
 
 }
+
+
+
+
